@@ -1,0 +1,9 @@
+D:\preuzmi\ProjekatMreze2\dCom\Modbus\bin\Debug\Modbus.dll
+D:\preuzmi\ProjekatMreze2\dCom\Modbus\bin\Debug\Modbus.pdb
+D:\preuzmi\ProjekatMreze2\dCom\Modbus\bin\Debug\Common.dll
+D:\preuzmi\ProjekatMreze2\dCom\Modbus\bin\Debug\Common.pdb
+D:\preuzmi\ProjekatMreze2\dCom\Modbus\obj\Debug\Modbus.csprojAssemblyReference.cache
+D:\preuzmi\ProjekatMreze2\dCom\Modbus\obj\Debug\Modbus.csproj.CoreCompileInputs.cache
+D:\preuzmi\ProjekatMreze2\dCom\Modbus\obj\Debug\Modbus.csproj.CopyComplete
+D:\preuzmi\ProjekatMreze2\dCom\Modbus\obj\Debug\Modbus.dll
+D:\preuzmi\ProjekatMreze2\dCom\Modbus\obj\Debug\Modbus.pdb

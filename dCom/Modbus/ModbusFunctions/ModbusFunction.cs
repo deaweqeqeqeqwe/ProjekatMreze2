@@ -6,24 +6,24 @@ using System.Reflection;
 
 namespace Modbus.ModbusFunctions
 {
-    /// <summary>
-    /// Class containing logic for parsing and packing modbus functions/requests.
-    /// </summary>
-    public abstract class ModbusFunction : IModbusFunction
+	/// <summary>
+	/// Class containing logic for parsing and packing modbus functions/requests.
+	/// </summary>
+	public abstract class ModbusFunction : IModbusFunction
 	{
 		private ModbusCommandParameters commandParameters;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="ModbusFunction"/> class.
-        /// </summary>
-        /// <param name="commandParameters">The modbus command parameters.</param>
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ModbusFunction"/> class.
+		/// </summary>
+		/// <param name="commandParameters">The modbus command parameters.</param>
 		public ModbusFunction(ModbusCommandParameters commandParameters)
 		{
 			this.commandParameters = commandParameters;
 		}
-        /// <summary>
-        /// Gets or sets the command parameters.
-        /// </summary>
+		/// <summary>
+		/// Gets or sets the command parameters.
+		/// </summary>
 		public ModbusCommandParameters CommandParameters
 		{
 			get
@@ -37,17 +37,17 @@ namespace Modbus.ModbusFunctions
 			}
 		}
 
-        /// <inheritdoc />
-        public override string ToString()
+		/// <inheritdoc />
+		public override string ToString()
 		{
 			return $"Transaction: {commandParameters.TransactionId}, command {commandParameters.FunctionCode}";
 		}
 
-        /// <summary>
-        /// Checks if the command parameters are valid.
-        /// </summary>
-        /// <param name="m">The methodbase.</param>
-        /// <param name="t">Type of the command parameters</param>
+		/// <summary>
+		/// Checks if the command parameters are valid.
+		/// </summary>
+		/// <param name="m">The methodbase.</param>
+		/// <param name="t">Type of the command parameters</param>
 		protected void CheckArguments(MethodBase m, Type t)
 		{
 			if (commandParameters.GetType() != t)
@@ -75,10 +75,10 @@ namespace Modbus.ModbusFunctions
 		/// </returns>
 		public abstract Dictionary<Tuple<PointType, ushort>, ushort> ParseResponse(byte[] response);
 
-        /// <summary>
-        /// Handles the exception
-        /// </summary>
-        /// <param name="exceptionCode">The exception code.</param>
+		/// <summary>
+		/// Handles the exception
+		/// </summary>
+		/// <param name="exceptionCode">The exception code.</param>
 		protected void HandeException(byte exceptionCode)
 		{
 			string message = string.Empty;

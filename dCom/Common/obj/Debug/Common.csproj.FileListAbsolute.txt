@@ -3,3 +3,9 @@ C:\Users\Racunar1\Desktop\Ognjen\SCADA\dCom\Common\bin\Debug\Common.pdb
 C:\Users\Racunar1\Desktop\Ognjen\SCADA\dCom\Common\obj\Debug\Common.dll
 C:\Users\Racunar1\Desktop\Ognjen\SCADA\dCom\Common\obj\Debug\Common.pdb
 C:\Users\Racunar1\Desktop\Ognjen\SCADA\dCom\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\preuzmi\ProjekatMreze2\dCom\Common\bin\Debug\Common.dll
+D:\preuzmi\ProjekatMreze2\dCom\Common\bin\Debug\Common.pdb
+D:\preuzmi\ProjekatMreze2\dCom\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\preuzmi\ProjekatMreze2\dCom\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\preuzmi\ProjekatMreze2\dCom\Common\obj\Debug\Common.dll
+D:\preuzmi\ProjekatMreze2\dCom\Common\obj\Debug\Common.pdb
