@@ -5,6 +5,6 @@ TCP 49425
 
 DO_REG  2 3700  0  0	  1     0  DO  @prekidacizatrcanje 2 
 DO_REG  2 3702  0  0	  1     0  DO  @prekidacizaveslanje 2
-IN_REG  2 4300  0  0  99999     0  AI  @senzori 2
-IN_REG  2 4302  0  0    200     0  AI  @monitori 2
+IN_REG  2 4300  0  0  99999     0  AI  @senzori 4
+IN_REG  2 4302  0  0    200     0  AI  @monitori 4
 
