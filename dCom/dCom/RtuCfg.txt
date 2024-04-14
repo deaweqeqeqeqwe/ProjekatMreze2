@@ -3,8 +3,8 @@ TCP 49425
 
 
 
-DO_REG  2 3700  0  0	  1     0  DO  @prekidacizatrcanje 2 
-DO_REG  2 3702  0  0	  1     0  DO  @prekidacizaveslanje 2
-IN_REG  2 4300  0  0  99999     0  AI  @senzori 4
-IN_REG  2 4302  0  0    200     0  AI  @monitori 4
-
+DO_REG  2 3700  0  0	  1     0  DO  @prekidaci_za_trcanje 2 
+DO_REG  2 3702  0  0	  1     0  DO  @prekidaci_za_veslanje 2
+IN_REG  1 4300  0  0  99999     0  AI  @senzor_kalorije 4
+IN_REG  1 4301  0  0     10     0  AI  @senzor_opterecemje 4
+IN_REG  2 4302  0  0    200     0  AI  @monitor_srcanog_ritma 4
